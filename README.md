@@ -11,9 +11,9 @@ Loss scaling is used to preserve small gradient values.
 ## Terminology
 ## Mantissa (Significand)
 The mantissa represents the significant digits of a number in scientific notation. It determines the precision of the floating-point format.
-   Precision and the Mantissa.
-     ### The number of bits allocated to the mantissa decides how many significant figures the format can store.
-     ### More bits = higher precision, meaning numbers can be represented with greater accuracy.
+   - Precision and the Mantissa.
+     - The number of bits allocated to the mantissa decides how many significant figures the format can store.
+     - More bits = higher precision, meaning numbers can be represented with greater accuracy.
 
 ## Exponent
 
