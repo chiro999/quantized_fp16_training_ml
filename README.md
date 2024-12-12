@@ -20,3 +20,9 @@ The exponent determines the scale or range of the number. It allows numbers to b
    - Dynamic Range and the Exponent
        - The number of bits allocated to the exponent determines the dynamic range, which is the range of representable values (from smallest to largest).
        - A larger exponent allows for a broader range of numbers but does not improve precision.
+
+## Bfloat16 vs FP16
+Bfloat16 (Brain Floating Point) and FP16 (Half Precision Floating Point) are both 16-bit floating-point formats designed for computational efficiency, especially in machine learning and AI workloads. However, they have distinct differences in representation and use cases. 
+   * Bfloat16 sacrifices mantissa bits to retain an 8-bit exponent (same as FP32), providing a wide dynamic range similar to FP32 but with reduced precision.
+   * FP16 provides more precision due to its 10-bit mantissa but has a smaller range because of its 5-bit exponent
+   
