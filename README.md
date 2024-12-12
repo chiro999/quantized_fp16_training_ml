@@ -18,5 +18,5 @@ The mantissa represents the significant digits of a number in scientific notatio
 ## Exponent
 The exponent determines the scale or range of the number. It allows numbers to be represented as very large or very small by moving the decimal point.
    - Dynamic Range and the Exponent
-    - The number of bits allocated to the exponent determines the dynamic range, which is the range of representable values (from smallest to largest).
-    - A larger exponent allows for a broader range of numbers but does not improve precision.
+       - The number of bits allocated to the exponent determines the dynamic range, which is the range of representable values (from smallest to largest).
+       - A larger exponent allows for a broader range of numbers but does not improve precision.
