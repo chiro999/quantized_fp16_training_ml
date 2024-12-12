@@ -8,7 +8,7 @@ Shorten the training or inference time.
 ## Dealing with quantization loss
 Loss scaling is used to preserve small gradient values.
 
-## Terminology
+# Terminology
 ## Mantissa (Significand)
 The mantissa represents the significant digits of a number in scientific notation. It determines the precision of the floating-point format.
    - Precision and the Mantissa.
@@ -16,4 +16,7 @@ The mantissa represents the significant digits of a number in scientific notatio
      - More bits = higher precision, meaning numbers can be represented with greater accuracy.
 
 ## Exponent
-
+The exponent determines the scale or range of the number. It allows numbers to be represented as very large or very small by moving the decimal point.
+   - Dynamic Range and the Exponent
+    - The number of bits allocated to the exponent determines the dynamic range, which is the range of representable values (from smallest to largest).
+    - A larger exponent allows for a broader range of numbers but does not improve precision.
